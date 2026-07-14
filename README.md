@@ -22,7 +22,7 @@ The results are null. There are 0 clients and 0 server packets because the data 
 The information shown in frame 6 is the use of SSLv3 protocol, Info: Server Hello, Certificate, Server Hello Done. This means that the server is responding to the client by saying Hello while sending a certificate to the client as confirmation. 
 Frame 32 is dealing with application data. When the encrypted message was sent to the server. 
 
-                                PART 2: DECRYPTED
+                                  PART 2: DECRYPTED
 
 Everything is almost the same when it comes to TCP, which is the 3-way handshake, but the HTTP protocol has no encrypted messages being sent and the application data is no longer there.
 
@@ -39,7 +39,7 @@ TLS Stream
 A lot has changed. There is information in the TLS stream because it is longer secured/ encrypted because of the Hypertext Protocol. The user can now see all the content that is on the website.
 The information given is clearly layout. There is HTML script, the operating system which it was built on Linux, the date which was Mon, 24 April 2006 and time. All the installation information and websites that were used.
 
-                          PART 4: ANAlYSIS
+                                  PART 3: ANAlYSIS
 
 Transport layer security (TLS) is a protocol that secures data that travel over the internet by providing end-to-end encryption (Internet Society, 2024). It is often used to secure internet activity such as web browsing; however, is can also be used for e-mail, file transfers, video/audioconferencing, instant messaging and voice-over-IP (Internet Society, 2024). TLS used to be SSL which is Secure Socket layer (GeeksforGeeks, 2024). In 2015, SSL is no longer a secure form of transporting data (Internet Society, 2024). The importance of the implementation of TLS it to ensure that data is sent over the internet encrypted, as before TLS data was sent unencrypted making it easier for hackers to get information (Internet Society, 2024). 
 TLS makes sure that important data such as logins, credit cards and personal information is safe while being sent online (Internet Society, 2024). There are several usages of TLS protocol for example it can encrypted data when while in transit, TLS almost works with all browsers making it capable of exchange information, TLS also provides a range of options when securing data to encryption algorithms and hashing algorithms and lastly TLS is easy to use and to deploy making convenient to secure data when it in transit (GeeksforGeeks, 2024).  TLS function by using an asymmetric cryptography, which is a lager key size making it more complicated to hack with the minimum key length being 1024 bits (Internet Society, 2024). TLS using this because it ensures that data is provided with a secure session key while in transit (Internet Society, 2024). 
